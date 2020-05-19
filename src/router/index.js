@@ -28,6 +28,10 @@ const routes = [
     path: '/father',
     component: () => import('@/views/Father.vue'),
     meta: { title: '函数组件 Demo' }
+  }, {
+    path: '/dad',
+    component: () => import('@/views/Dad.vue'),
+    meta: { title: '具名插槽组件 Demo' }
   }
 ]
 
