@@ -41,7 +41,7 @@ export default {
     const { emit } = ctx
     // 将点击事件 emit 给父组件
     const handleClick = () => {
-      !disabled && emit('click')
+      !disabled && emit('onClick')
     }
     return {
       handleClick

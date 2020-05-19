@@ -1,5 +1,4 @@
 <template>
-  <router-link to="/about">点这里去关于我们页面</router-link>
   <div class="home">
     这里是一个计数器 >>> <span class="red">{{count}}</span> <br>
     <button @click="countAdd">{{btnText}}</button>

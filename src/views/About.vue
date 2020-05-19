@@ -1,6 +1,4 @@
 <template>
-  <router-link to="/">点这里去首页</router-link>
-  <hr>
   <dl>
     <dt>{{state.name}}</dt>
     <dd>性别：{{state.sex}}</dd>

@@ -1,6 +1,4 @@
 <template>
-  <router-link to="/">点这里去首页</router-link>
-  <hr>
   <div class="home">
     这里是一个计数器 >>> <span class="red">{{count}}</span> <br>
     右边的数字是上面的数字的十倍 >>> <span class="red">{{bigCount}}</span> <br>

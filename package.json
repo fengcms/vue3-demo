@@ -4,7 +4,8 @@
   "description": "一个基于vue3的demo演示",
   "main": "webpack.config.js",
   "scripts": {
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "build": "webpack --env.prod"
   },
   "keywords": [
     "vue3"

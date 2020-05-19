@@ -6,19 +6,28 @@ import Home from '@/views/Home.vue'
 const routes = [
   {
     path: '/',
-    component: Home
+    component: Home,
+    meta: { title: '首页-响应式数据计数器 Demo' }
   }, {
     path: '/about',
     component: () => import('@/views/About.vue'),
+    meta: { title: '关于我们-响应式对象数据 Demo' }
   }, {
     path: '/life',
     component: () => import('@/views/Life.vue'),
+    meta: { title: '生命周期 Demo' }
   }, {
     path: '/computed',
     component: () => import('@/views/Computed.vue'),
+    meta: { title: '计算属性 Demo' }
   }, {
     path: '/parent',
     component: () => import('@/views/Parent.vue'),
+    meta: { title: '普通组件 Demo' }
+  }, {
+    path: '/father',
+    component: () => import('@/views/Father.vue'),
+    meta: { title: '函数组件 Demo' }
   }
 ]
 
