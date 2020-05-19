@@ -16,6 +16,11 @@
       <th>传对象参插槽：</th>
       <td><slot name="object" v-bind="{ old, name }" /></td>
     </tr>
+    <tr>
+      <th>换个语法传参：</th>
+      <!-- 这个语法我个人不推荐 -->
+      <td><slot name="object" :="{ old, name }" /></td>
+    </tr>
   </table>
 </template>
 <script>
